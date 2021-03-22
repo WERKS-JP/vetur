@@ -12,6 +12,7 @@ Vetur supports syntax highlighting for the following languages:
 | `<template lang="slim">` | `slim`    | [Slim](https://marketplace.visualstudio.com/items?itemName=sianglim.slim)                                                                                          |
 | `<style>`                | `css`     |
 | `<style lang="postcss">` | `postcss` |
+| `<style lang="sss>`      | `sss`     |
 | `<style lang="scss">`    | `scss`    |
 | `<style lang="sass">`    | `sass`    | [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)                                                                             |
 | `<style lang="less">`    | `less`    |
