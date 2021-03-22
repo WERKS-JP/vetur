@@ -1,0 +1,14 @@
+{
+    "patterns": [
+        {
+            "patterns": [
+                {
+                    "include": "#comment-tag"
+                }
+            ],
+            "begin": "/\\*",
+            "name": "comment.block.postcss.sss",
+            "end": "\\*/"
+        }
+    ]
+}
