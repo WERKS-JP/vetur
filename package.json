@@ -135,7 +135,7 @@
           "Vue-SUGARSS",
           "Vue-sugarss"
         ],
-        "configuration": "./languages/vue-postcss-sugarss-language-configuration.json"
+        "configuration": "./languages/vue-sugarss-language-configuration.json"
       }
     ],
     "grammars": [
@@ -175,7 +175,7 @@
       },
       {
         "language": "vue-sugarss",
-        "scopeName": "source.css.postcss.sss",
+        "scopeName": "source.css.sugarss",
         "path": "./syntaxes/vue-sugarss.json"
       },
       {
@@ -296,7 +296,7 @@
         "vetur.validation.style": {
           "type": "boolean",
           "default": true,
-          "description": "Validate css/scss/less/postcss in <style>"
+          "description": "Validate css/scss/less/postcss/sugarss in <style>"
         },
         "vetur.validation.script": {
           "type": "boolean",

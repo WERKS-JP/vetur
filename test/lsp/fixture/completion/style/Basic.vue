@@ -1,5 +1,5 @@
 <template>
-  
+
 </template>
 
 <style>
@@ -32,3 +32,7 @@
 }
 </style>
 
+<style lang="sugarss">
+foo
+  w
+</style>

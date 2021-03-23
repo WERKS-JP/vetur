@@ -616,7 +616,7 @@
       ]
     },
     {
-      "begin": "(<)(style)\\b(?=[^>]*lang=('sss'|\"sss\"))(?![^/>]*/>\\s*$)",
+      "begin": "(<)(style)\\b(?=[^>]*lang=('sugarss'|\"sugarss\"))(?![^/>]*/>\\s*$)",
       "beginCaptures": {
         "1": {
           "name": "punctuation.definition.tag.begin.html"
@@ -629,6 +629,12 @@
       "endCaptures": {
         "1": {
           "name": "punctuation.definition.tag.begin.html"
+        },
+        "2": {
+          "name": "entity.name.tag.style.html"
+        },
+        "3": {
+          "name": "punctuation.definition.tag.end.html"
         }
       },
       "patterns": [
@@ -636,7 +642,7 @@
           "includes": "#tag-stuff"
         },
         {
-          "contentName": "source.css.postcss.sss",
+          "contentName": "source.css.sugarss",
           "begin": "(>)",
           "beginCaptures": {
             "1": {
@@ -646,7 +652,7 @@
           "end": "(?=</style>)",
           "patterns": [
             {
-              "include": "source.css.postcss.sss"
+              "include": "source.css.sugarss"
             }
           ]
         }
