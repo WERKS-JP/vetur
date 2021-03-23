@@ -294,7 +294,7 @@ patterns:
           - include: source.css.postcss
 
   # sugarss
-  - begin: (<)(style)\b(?=[^>]*lang=('sugarss'|"sugarss"))(?![^/>]*/>\s*$)
+  - begin: (<)(style)\b(?=[^>]*lang=('sss'|"sss"))(?![^/>]*/>\s*$)
     beginCaptures:
       '1': { name: punctuation.definition.tag.begin.html }
       '2': { name: entity.name.tag.style.html }

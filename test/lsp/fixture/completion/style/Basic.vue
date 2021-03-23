@@ -32,7 +32,7 @@
 }
 </style>
 
-<style lang="sugarss">
+<style lang="sss">
 foo
   w
 </style>

@@ -616,7 +616,7 @@
       ]
     },
     {
-      "begin": "(<)(style)\\b(?=[^>]*lang=('sugarss'|\"sugarss\"))(?![^/>]*/>\\s*$)",
+      "begin": "(<)(style)\\b(?=[^>]*lang=('sss'|\"sss\"))(?![^/>]*/>\\s*$)",
       "beginCaptures": {
         "1": {
           "name": "punctuation.definition.tag.begin.html"
