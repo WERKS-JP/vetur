@@ -91,7 +91,7 @@ export class LanguageModes {
     'vue-html': nullMode,
     css: nullMode,
     postcss: nullMode,
-    sugarss: nullMode,
+    sss: nullMode,
     scss: nullMode,
     less: nullMode,
     sass: nullMode,

@@ -45,7 +45,7 @@ export function getSugarSSMode(
   dependencyService: DependencyService
 ): LanguageMode {
   const languageService = getCSSLanguageService();
-  return getStyleMode(env, 'sugarss', languageService, documentRegions, dependencyService);
+  return getStyleMode(env, 'sss', languageService, documentRegions, dependencyService);
 }
 
 export function getSCSSMode(
@@ -184,7 +184,7 @@ function getStyleMode(
       const parserMap: { [k: string]: BuiltInParserName } = {
         css: 'css',
         postcss: 'css',
-        sugarss: 'css',
+        sss: 'css',
         scss: 'scss',
         less: 'less'
       };

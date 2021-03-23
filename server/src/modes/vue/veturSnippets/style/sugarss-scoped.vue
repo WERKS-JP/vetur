@@ -1,3 +1,3 @@
-<style lang="sugarss" scoped>
+<style lang="sss" scoped>
 ${0}
 </style>
